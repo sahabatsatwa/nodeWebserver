@@ -4,7 +4,7 @@ const routes = require('./routes');
 const init = async () => {
   const server = Hapi.server({
     port: 5000,
-    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '52.148.81.184',
+    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '10.1.0.4',
     routes: {
       cors: {
         origin: ['*'],
